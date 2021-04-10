@@ -79,9 +79,54 @@ The above graph illustrates the Year over Year Change in Employment after Covid 
 
 <br/><br/>
 
+The next four graphs illustrate a possible relationship between the change in time outside the home and the rate of new Covid cases. These must be interpreted with the caveat that in order to avoid washing out or flatlining the display of the change in time outside the home when plotted with new Covid case rate, the new Covid case rate was normalized. Normalized by a factor of 1/500, given that the real rate is cases/100,000 people, equates to cases/50,000,000.    
 
+![alt text](images/change_toh_vs_nccr.png) 
+
+![alt text](images/nat_change_toh_vs_nccr.png)  
+
+![alt text](images/az_change_toh_vs_nccr.png) 
+
+![alt text](images/co_change_toh_vs_nccr.png)  
+
+This is an area which given more time I would have liked to investigate further by attempting to determine if there was a corelation between the change in time outside the home and the rate of new Covid cases. For example when comparing average time away from home in both the Arizona and Colorado graphs we see that Arizona residents remain at home from June onward whereas Colorado residents are away from home more often and possibly as a result we see a spike in new Covid case rates in Arizona. 
+
+<br/><br/>
+
+|    | State         |   Pop. 2019 |  Total Deaths |  Deaths per Mil |
+|---:|:--------------|------------:|--------------:|----------------:|
+|  1 | California    |    39512223 |         57557 |        0.057557 |
+|  2 | New York      |    19453561 |         47978 |        0.047978 |
+|  3 | Texas         |    28995881 |         47224 |        0.047224 |
+|  4 | Florida       |    21477737 |         32727 |        0.032727 |
+|  5 | Pennsylvania  |    12801989 |         24771 |        0.024771 |
+|  6 | New Jersey    |     8882190 |         24170 |        0.02417  |
+|  7 | Illinois      |    12671821 |         22902 |        0.022902 |
+|  8 | Georgia       |    10617423 |         17959 |        0.017959 |
+|  9 | Massachusetts |     6892503 |         16855 |        0.016855 |
+| 10 | Arizona       |     7278717 |         16739 |        0.016739 |
+
+![alt text](images/deaths_per_mil.png)  
+Shown above are Covid deaths per million in the United States.
+
+<br/><br/>
+
+|    | Arizona Counties  |  Total Deaths | Colorado Counties  |  Total Deaths |
+|---:|:------------------|--------------:|:-------------------|--------------:|
+|  1 | Maricopa          |          9542 | Denver             |           775 |
+|  2 | Pima              |          2327 | El Paso            |           754 |
+|  3 | Pinal             |           833 | Jefferson          |           729 |
+|  4 | Yuma              |           811 | Arapahoe           |           676 |
+|  5 | Mohave            |           674 | Adams              |           633 |
+
+![alt text](images/county_deaths.png)  
+Lastly, we see above the total deaths in Arizona and Colorado counties relative to a log 10 scale.
 
 ## Concluding Thoughts
+
+As mentioned earlier I would have liked to look into whether there was a correlation between the change in time outside the home and the rate of new Covid cases. The time away from home data can be broken down into 7 categories where that time away from home is spent. Examining where time spent away from home and rates of new Covid cases could provide additional insight.
+
+Finally, the level of economic analysis herein was surface level. As data exists for changes of employment by income level, referencing that against changes in spending might have provided insight into the behaviors of various income strata. 
 
 
 ## Contact Info
