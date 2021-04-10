@@ -29,7 +29,25 @@ following information is subject to change.
 
 <ins>COVID-19 Data</ins>: Confirmed COVID-19 case daily counts and rates per 100,000 people from COVID Tracking Project.   
 
-I decided to conduct my analysis in realtion to the states of Arizona and Colorado and the National Level.  The reasons for doing so is that I am a proud Arizonan and as such I am interested in the data that pertains to it, I believe that Colorado provides the closest 'apples to apples' comparison given a variety of factors, and I needed a '30,000ft. view' to contextualize my analysis of those states which the National level data provided.  
+|    | State         |   Pop. 2019 |  Total Deaths |  Deaths per Mil |
+|---:|:--------------|------------:|--------------:|----------------:|
+|  1 | California    |    39512223 |         57557 |        0.057557 |
+|  2 | New York      |    19453561 |         47978 |        0.047978 |
+|  3 | Texas         |    28995881 |         47224 |        0.047224 |
+|  4 | Florida       |    21477737 |         32727 |        0.032727 |
+|  5 | Pennsylvania  |    12801989 |         24771 |        0.024771 |
+|  6 | New Jersey    |     8882190 |         24170 |        0.02417  |
+|  7 | Illinois      |    12671821 |         22902 |        0.022902 |
+|  8 | Georgia       |    10617423 |         17959 |        0.017959 |
+|  9 | Massachusetts |     6892503 |         16855 |        0.016855 |
+| 10 | Arizona       |     7278717 |         16739 |        0.016739 |
+
+![alt text](images/deaths_per_mil.png)  
+Shown above are Covid deaths per million in the United States.  
+
+I decided to conduct my analysis in realtion to the states of Arizona and Colorado and the National Level.  The reasons for doing so is that I am a proud Arizonan and as such I am interested in the data that pertains to it, I believe that Colorado provides the closest 'apples to apples' comparison given a variety of factors, and I needed a '30,000ft. view' to contextualize my analysis of those states which the National level data provided. 
+
+<br/><br/>
 
 ## Analysis
 
@@ -86,7 +104,7 @@ The above graph illustrates the Year over Year Change in Employment after Covid 
 
 <br/><br/>
 
-The next four graphs illustrate a possible relationship between the change in time outside the home and the rate of new Covid cases. These must be interpreted with the caveat that in order to avoid washing out or flatlining the display of the change in time outside the home when plotted with new Covid case rate, the new Covid case rate was normalized. Normalized by a factor of 1/500, given that the real rate is cases/100,000 people, equates to cases/50,000,000.    
+The next four graphs illustrate a possible relationship between the change in time outside the home and the rate of new Covid cases. These must be interpreted with the caveat that in order to avoid washing out or flatlining the display of the change in time outside the home when plotted with new Covid case rate, I modified the scale of New Covid Case Rates to show a possible inverse correlation.    
 
 ![alt text](images/change_toh_vs_nccr.png) 
 
@@ -100,24 +118,6 @@ This is an area which given more time I would have liked to investigate further 
 
 <br/><br/>
 
-|    | State         |   Pop. 2019 |  Total Deaths |  Deaths per Mil |
-|---:|:--------------|------------:|--------------:|----------------:|
-|  1 | California    |    39512223 |         57557 |        0.057557 |
-|  2 | New York      |    19453561 |         47978 |        0.047978 |
-|  3 | Texas         |    28995881 |         47224 |        0.047224 |
-|  4 | Florida       |    21477737 |         32727 |        0.032727 |
-|  5 | Pennsylvania  |    12801989 |         24771 |        0.024771 |
-|  6 | New Jersey    |     8882190 |         24170 |        0.02417  |
-|  7 | Illinois      |    12671821 |         22902 |        0.022902 |
-|  8 | Georgia       |    10617423 |         17959 |        0.017959 |
-|  9 | Massachusetts |     6892503 |         16855 |        0.016855 |
-| 10 | Arizona       |     7278717 |         16739 |        0.016739 |
-
-![alt text](images/deaths_per_mil.png)  
-Shown above are Covid deaths per million in the United States.
-
-<br/><br/>
-
 |    | Arizona Counties  |  Total Deaths | Colorado Counties  |  Total Deaths |
 |---:|:------------------|--------------:|:-------------------|--------------:|
 |  1 | Maricopa          |          9542 | Denver             |           775 |
@@ -127,15 +127,17 @@ Shown above are Covid deaths per million in the United States.
 |  5 | Mohave            |           674 | Adams              |           633 |
 
 ![alt text](images/county_deaths.png)  
-Lastly, we see above the total deaths in Arizona and Colorado counties relative to a log 10 scale.
+Lastly, we see above the total deaths in Arizona and Colorado counties relative to a log 10 scale which was utilized to provide a quick comparison in Total Deaths between counties.  Given more time I would like to normalize the Total Deaths to Total Deaths per County Population to provide a more equitable comparison between the counties.
 
 ## Concluding Thoughts
 
-As mentioned earlier I would have liked to look into whether there was a correlation between the change in time outside the home and the rate of new Covid cases. The time away from home data can be broken down into 7 categories where that time away from home is spent. Examining where time spent away from home and rates of new Covid cases could provide additional insight.
+As mentioned in the introduction, COVID-19 has been the defining crisis of our time and will certainly be a topic of analysis for years to come. Given the differences in deaths per state across the United States, diving into the data to discern why these differences occurred could help future pandemic preparations.
 
-Additionally, the level of economic analysis herein was surface level. As data exists for changes of employment by income level, referencing that against changes in spending might have provided insight into the behaviors of various income strata. 
+## Next Steps
 
-Finally, their seems to be a substantial difference in total deaths between Arizona and Colorado. Of singular importance are determining the factors that lead to the difference. There could be numerous factors but one in particular that might provide insight is diving into the Covid data as it relates to Native American tribal communites, a dive which would require acquing data outside of this particular set.
+The time away from home data can be further broken down into 7 categories where that time away from home is spent. Examining where time spent away from home and rates of new Covid cases could provide additional insight.
+
+Finally, their seems to be a substantial difference in total deaths between Arizona and Colorado. Of singular importance are determining the factors that lead to the difference. There could be numerous factors but one in particular that I would be interested in investigating is COVID data in relation to Native American tribal communites, a dive which would require acquing data outside of this particular set.
 
 ## Contact Info
 
