@@ -18,7 +18,15 @@ This section provides a brief overview of the sources and processing applied to 
 Please note that both the data and this data documentation is updated regularly and that the
 following information is subject to change.
 
+    Consumer Spending Data: Aggregated purchase data from consumer credit and debit cards, based on ZIP code of cardholder.  
 
+    Employment Data: Aggregated active employee data payroll and timesheet data from multiple data providers.  
+
+    Unemployment Data: Unimployment insurance claims for all states and nation from U.S. Department of Labor.
+
+    Time Outside Home Data: Estimations using cellphone location data from Google users.
+
+    COVID-19 Data: Confirmed COVID-19 case daily counts and rates per 100,000 people from COVID Tracking Project.   
 
 I decided to conduct my analysis in realtion to the states of Arizona and Colorado and the National Level.  The reasons for doing so is that I am a proud Arizonan and as such I am interested in the data that pertains to it, I believe that Colorado provides the closest 'apples to apples' comparison given a variety of factors, and I needed a '30,000ft. view' to contextualize my analysis of those states which the National level data provided.  
 
@@ -26,41 +34,41 @@ I decided to conduct my analysis in realtion to the states of Arizona and Colora
 
 ## Analysis
 
-|                   |Mean Spend Yr/Yr  |
-|:------------------|-----------------:|
-| Arizona           |   -0.00409018    |
-| Colorado          |   -0.0565242     |
-| National          |   -0.0111332     |
+|                   |Yr/Yr Change in Avg Spending  |
+|:------------------|-----------------------------:|
+| Arizona           |         -0.00409018          |
+| Colorado          |         -0.0565242           |
+| National          |         -0.0111332           |
 
 ![alt text](images/spending_diff_ac.png)  
 The above graph illustrates the Year over Year Spending differences after Covid at an Arizona, Colorado, and National Level.  
 
 <br/><br/>
 
-| AZ Avg Spending                   |    Yr/Yr   |
-|:----------------------------------|-----------:|
-| Accomodation and Food Service     | -0.286765  |
-| Arts Entertain Recreaction        | -0.426398  |
-| All Spending                      | -0.0554669 |
-| Gen Merchise & Apparel            | -0.089561  |
-| Grocery and Food Store            |  0.11258   |
-| Health Care and Social Assistance | -0.0880302 |
-| Transportation and Warehouse      | -0.422075  |
+| AZ Avg Spending                   |Yr/Yr Change in Avg Spending|
+|:----------------------------------|---------------------------:|
+| Accomodation and Food Service     |         -0.286765          |
+| Arts Entertain Recreaction        |         -0.426398          |
+| All Spending                      |         -0.0554669         |
+| Gen Merchise & Apparel            |         -0.089561          |
+| Grocery and Food Store            |          0.11258           |
+| Health Care and Social Assistance |         -0.0880302         |
+| Transportation and Warehouse      |         -0.422075          |
 
 ![alt text](images/az_spend_diff_industry.png)  
 Above we can see the Year over Year Spending differences after Covid in Arizona by Industry. Of particular note to me due to my current profession is the significant decrease in spending in the Transportation and Warehouse industry. Our company had to put on the brakes in building up our warehouse levels as we weren't quite sure how market demand was going to respond, this effectively slowed and even stopped transportation at some points.  
 
 <br/><br/>
 
-| CO Avg Spending                   |    Yr/Yr   |
-|:----------------------------------|-----------:|
-| Accomodation and Food Service     | -0.359726  |
-| Arts Entertain Recreaction        | -0.500423  |
-| All Spending                      | -0.0936864 |
-| Gen Merchise & Apparel            | -0.131     |
-| Grocery and Food Store            |  0.114506  |
-| Health Care and Social Assistance | -0.151907  |
-| Transportation and Warehouse      | -0.491753  |
+| CO Avg Spending                   |Yr/Yr Change in Avg Spending|
+|:----------------------------------|---------------------------:|
+| Accomodation and Food Service     |          -0.359726         |
+| Arts Entertain Recreaction        |          -0.500423         |
+| All Spending                      |          -0.0936864        |
+| Gen Merchise & Apparel            |          -0.131            |
+| Grocery and Food Store            |           0.114506         |
+| Health Care and Social Assistance |          -0.151907         |
+| Transportation and Warehouse      |          -0.491753         |
 
 ![alt text](images/co_spend_diff_industry.png)  
 
@@ -126,8 +134,9 @@ Lastly, we see above the total deaths in Arizona and Colorado counties relative 
 
 As mentioned earlier I would have liked to look into whether there was a correlation between the change in time outside the home and the rate of new Covid cases. The time away from home data can be broken down into 7 categories where that time away from home is spent. Examining where time spent away from home and rates of new Covid cases could provide additional insight.
 
-Finally, the level of economic analysis herein was surface level. As data exists for changes of employment by income level, referencing that against changes in spending might have provided insight into the behaviors of various income strata. 
+Additionally, the level of economic analysis herein was surface level. As data exists for changes of employment by income level, referencing that against changes in spending might have provided insight into the behaviors of various income strata. 
 
+Finally, their seems to be a substantial difference in total deaths between Arizona and Colorado. Of singular importance are determining the factors that lead to the difference. There could be numerous factors but one in particular that might provide insight is diving into the Covid data as it relates to Native American tribal communites, a dive which would require acquing data outside of this particular set.
 
 ## Contact Info
 
