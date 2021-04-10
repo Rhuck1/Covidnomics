@@ -2,7 +2,7 @@
 
 ## Motivation
 
-COVID-19 will be the defining crisis of our decade.  There will be countless studies, analyses, and debates for years to come...and I can't wait that long.  My aim is to utilize data from a new public database, built using anonymized private sector data to examine the economic impact of COVID-19 here in the US from the outbreak till now (3/30/21 having been the date of the data pull).  This database provides a real-time picture of economic indicators such as employment rates, consumer spending, and job postings from varying income groups, industries and counties across the country from the outbreak of covid until now. I hope to provide an overview of my analysis interspersed with personal accounts during the outbreak of Covid.  
+COVID-19 will be the defining crisis of our decade.  There will be countless studies, analyses, and debates for years to come...and I can't wait that long.  My aim is to utilize data from a new public database, built using anonymized private sector data to examine the economic impact of COVID-19 at the National Level and at the state levels of Arizona and Colorado from the outbreak till now (3/30/21 having been the date of the data pull). I hope to provide an overview of my analysis interspersed with personal accounts during the outbreak of Covid.  
 
 The idea behind the creation of this database can be found here:
 
@@ -12,21 +12,22 @@ The origins of the data for this project can be found here:
 
 https://tracktherecovery.org/
 
-## Regarding the Data
-This section provides a brief overview of the sources and processing applied to each data series utilized to construct the graphs and tables within this Capstone Project.  This overview is organized sequentially.
+## Regarding the Data  
+
+This database provides a real-time picture of economic indicators such as employment rates, consumer spending, and job postings from varying income groups, industries and counties across the country from the outbreak of covid until now. What follows is a brief overview of the sources of data series utilized to construct the graphs and tables within this Capstone Project.  This overview is organized sequentially.
 
 Please note that both the data and this data documentation is updated regularly and that the
 following information is subject to change.
 
-    Consumer Spending Data: Aggregated purchase data from consumer credit and debit cards, based on ZIP code of cardholder.  
+<ins>Consumer Spending Data</ins>: Aggregated purchase data from consumer credit and debit cards, based on ZIP code of cardholder.  
 
-    Employment Data: Aggregated active employee data payroll and timesheet data from multiple data providers.  
+<ins>Employment Data</ins>: Aggregated active employee data payroll and timesheet data from multiple data providers.  
 
-    Unemployment Data: Unimployment insurance claims for all states and nation from U.S. Department of Labor.
+<ins>Unemployment Data</ins>: Unimployment insurance claims for all states and nation from U.S. Department of Labor.
 
-    Time Outside Home Data: Estimations using cellphone location data from Google users.
+<ins>Time Outside Home Data</ins>: Estimations using cellphone location data from Google users.
 
-    COVID-19 Data: Confirmed COVID-19 case daily counts and rates per 100,000 people from COVID Tracking Project.   
+<ins>COVID-19 Data</ins>: Confirmed COVID-19 case daily counts and rates per 100,000 people from COVID Tracking Project.   
 
 I decided to conduct my analysis in realtion to the states of Arizona and Colorado and the National Level.  The reasons for doing so is that I am a proud Arizonan and as such I am interested in the data that pertains to it, I believe that Colorado provides the closest 'apples to apples' comparison given a variety of factors, and I needed a '30,000ft. view' to contextualize my analysis of those states which the National level data provided.  
 
