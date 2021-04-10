@@ -31,8 +31,6 @@ following information is subject to change.
 
 I decided to conduct my analysis in realtion to the states of Arizona and Colorado and the National Level.  The reasons for doing so is that I am a proud Arizonan and as such I am interested in the data that pertains to it, I believe that Colorado provides the closest 'apples to apples' comparison given a variety of factors, and I needed a '30,000ft. view' to contextualize my analysis of those states which the National level data provided.  
 
-***This section should also include EDA graphs***
-
 ## Analysis
 
 |                   |Yr/Yr Change in Avg Spending  |
