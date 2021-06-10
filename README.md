@@ -1,7 +1,6 @@
+# Covid-nomics  
 
 <img src="images/covid.png" width="800">  
-
-# Covid-nomics  
 
 ## Motivation
 
